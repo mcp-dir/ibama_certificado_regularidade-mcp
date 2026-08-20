@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/ibama_certificado_regularidade-mcp",
+  "title": "IBAMA: Certificado de Regularidade",
+  "description": "IBAMA: Certificado de Regularidade, official-source lookup. Platform-hosted, pay per query with prep",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/ibama_certificado_regularidade-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_ibama_certificado_regularidade"
+    }
+  ]
+}
